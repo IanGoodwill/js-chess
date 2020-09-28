@@ -9,9 +9,9 @@ class ImageCropper extends Component {
     src: null,
     file: '',
     croppedImage: null,
-    fileName: '',
+    fileName: '', 
     height: 30,
-    width: 30,
+    width: 30, 
     showPreview: false,
     type: null,
     crop: {
