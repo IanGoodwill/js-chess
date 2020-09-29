@@ -5,7 +5,7 @@ const Piece = props => {
   var { piece, letters, view, movable, turn } = props;
   var { teamId, pos, id, code, color } = piece;
 
-  var dir = (pos.number - 1) * 25;
+  var dir = (pos.number - 1) * 100;
 
   var onClick = !props.setOppo || !props.setMovable 
         ? null 
@@ -14,7 +14,7 @@ const Piece = props => {
 
 
   var outerStyle={
-    left: onClick ? letters.indexOf(pos.letter) * 25 : null,
+    left: onClick ? letters.indexOf(pos.letter) * 100 : null,
     border: movable && movable.id === id ? "solid 1px red" : "",
     top: onClick ? dir : null,
     transform: view ? null : 'rotate(180deg)'

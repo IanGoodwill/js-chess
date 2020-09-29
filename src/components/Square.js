@@ -13,7 +13,7 @@ const Square = ({ opacity, backgroundColor, val, isOnBoard, pos, setSpot, movabl
   return (
     <div
       className={className}
-      style={{ opacity, backgroundColor: backgroundColor ? backgroundColor : 'grey' }}
+      style={{ opacity, backgroundColor: backgroundColor ? backgroundColor : '#946f67' }}
       onClick={handleClick}
     >
       {val}
