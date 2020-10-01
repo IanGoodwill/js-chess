@@ -18,7 +18,7 @@ const Row = ({ isEven, letters, numbers, index, setSpot, movable }) => {
             movable={movable}
             isOnBoard={true}
             pos={{ letter: x, number: num }}
-            opacity={i % 2 === 0 ? 0.7 : 0}
+            opacity={i % 2 === 0 ? 0.7 : 0.1}
           />
         );
       })}

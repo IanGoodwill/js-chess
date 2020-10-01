@@ -7,6 +7,7 @@ import ImageCropper from './ImageCropper';
 import "../App.css";
 import pieces from "../pieces.js";
 import {checkPawn} from '../services.js'
+import {checkRook} from '../services.js'
 
 const letters = ["A", "B", "C", "D", "E", "F", "G", "H"];
 const numbers = ["1", "2", "3", "4", "5", "6", "7", "8"];
